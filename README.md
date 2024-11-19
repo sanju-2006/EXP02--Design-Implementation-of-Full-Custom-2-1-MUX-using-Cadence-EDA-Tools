@@ -1,12 +1,21 @@
 # EXP02--Design-Implementation-of-Full-Custom-2-1-MUX-using-Cadence-EDA-Tools
 Experiment -2 
 Aim:
+
 To design and implement a 2:1 multiplexer (MUX) circuit using Cadence EDA tools, analyse its functionality and performance, and understand the principles of digital logic design, including schematic creation, layout design, and simulation.
+
 Tools Required:
+
 •	Personal Computer
+
 •	Cadence Virtuoso Software
 
-S C H E M A T I C S I M U L A T I O N
+CIRCUIT DIAGRAM:
+
+![WhatsApp Image 2024-11-19 at 18 13 03_05a6d4fd](https://github.com/user-attachments/assets/095c7822-7524-49ea-801a-3cb54ce34b85)
+
+SCHEMATIC SIMULATION:
+
 PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION
 Commands to get into Cadence
 1.	Right Click and open the terminal window
@@ -46,7 +55,8 @@ ii)	Create Schematic Cell view.
 	Create Input and Output pins
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
-![image](https://github.com/user-attachments/assets/bd85c763-d697-4ab2-87f3-d677f24227ac)
+
+![image](https://github.com/user-attachments/assets/5e56f116-694b-4e0f-9fdc-d12cde04aec3)
 
 
  
@@ -63,7 +73,8 @@ iii)	Creating the Symbol for schematic Cell view
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
- ![image](https://github.com/user-attachments/assets/ca09de2d-ba22-415f-a189-26893cdcc446)
+ ![image](https://github.com/user-attachments/assets/aea2af72-70a7-42d3-a835-e86bfff64730)
+
 
 
 iv)	Creating the new test cell view
@@ -74,6 +85,7 @@ iv)	Creating the new test cell view
 	View: Schematic
 	Type: Schematic press OK
 •	Follow the step 3(ii) d to make the required connections
+
  ![image](https://github.com/user-attachments/assets/85b7456e-1902-4ac2-8291-6ae6035dd0a2)
 
 Analog simulation by SPECTRE.
@@ -86,10 +98,13 @@ Analog simulation by SPECTRE.
 	Execute Output s—to be plotted – Select on Schematic
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
+
  ![image](https://github.com/user-attachments/assets/92eae130-d124-4f8b-a4b5-0040f418f193)
 
 For Transient Analysis Settings and Output
- ![image](https://github.com/user-attachments/assets/47f7be45-4763-4d32-9eae-c417d1b7d501)
+
+ ![image](https://github.com/user-attachments/assets/47b4af89-764c-4e78-b6fc-e37a96462e31)
+
 
  ![image](https://github.com/user-attachments/assets/557307b6-a35f-4e94-90e4-59bdb361c676)
 
